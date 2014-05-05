@@ -49,7 +49,6 @@ class Location {
 	 */
 	private function getClientIP()
 	{
-		return '72.38.34.168';
 		if (getenv('HTTP_CLIENT_IP')) {
 			$ipaddress = getenv('HTTP_CLIENT_IP');
 		}
